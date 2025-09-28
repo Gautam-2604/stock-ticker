@@ -215,6 +215,20 @@ declare global {
         threshold: number;
         changePercent?: number;
     };
+
+    type StockProfile = {
+        name?: string;
+        ticker?: string;
+        exchange?: string;
+        country?: string;
+        currency?: string;
+        marketCapitalization?: number;
+        shareOutstanding?: number;
+        logo?: string;
+        weburl?: string;
+        phone?: string;
+        finnhubIndustry?: string;
+    };
 }
 
 export {};
