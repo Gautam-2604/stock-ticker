@@ -231,6 +231,12 @@ declare global {
         phone?: string;
         finnhubIndustry?: string;
     };
+
+    type UserForNewsEmail = {
+        id: string;
+        email: string;
+        name: string;
+    };
 }
 
 export {};
