@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 // @ts-expect-error some error that we encountered
-//Aise hi kr diya-> some error
 import "./globals.css";
 
 const geistSans = Geist({
